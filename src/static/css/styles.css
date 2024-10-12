@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    font-weight: 600;
+    color: #333;
+}
+header {
+    background-color: #343a40;
+}
+
+nav a {
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+button.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+button.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+button.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+button.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-lg {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
