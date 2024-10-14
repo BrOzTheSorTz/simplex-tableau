@@ -1,3 +1,4 @@
+/* Estilo general */
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -6,35 +7,35 @@ body {
     color: #333;
 }
 
-h1 {
+h1, h2, h3, h4 {
     font-weight: 600;
     color: #333;
 }
+
+/* Encabezado */
 header {
     background-color: #343a40;
 }
 
-nav a {
-    font-size: 1rem;
-    font-weight: 500;
-    transition: color 0.3s ease;
+.logo h2 {
+    font-size: 1.5rem;
+    margin-left: 10px;
 }
 
-nav a:hover {
-    color: #ffc107;
-}
-
+/* Card y formularios */
 .card {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     padding: 30px;
+    margin-bottom: 20px;
 }
 
 input[type="text"] {
     border: 2px solid #ccc;
     border-radius: 5px;
     padding: 10px;
+    width: 100%; /* Cambia el tamaño del input al 100% */
 }
 
 input:focus {
@@ -42,6 +43,7 @@ input:focus {
     outline: none;
 }
 
+/* Botones */
 button {
     font-size: 1rem;
     font-weight: 500;
@@ -82,4 +84,6 @@ button.btn-outline-secondary:hover {
     font-size: 1.2rem;
     padding: 10px 20px;
 }
-
+.funcion-objetivo{
+    flex-direction: column;
+}
